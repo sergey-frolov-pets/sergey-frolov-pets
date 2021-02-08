@@ -26,33 +26,9 @@ if [[ -n $1 && -d $1 ]]; then
   DEST=$1
 fi
 
-while (($#)); do
-  opt="$1"
-  case $opt in
-    --build)
-      _build=true
-      shift
-      ;;
-    -d | --dir)
-      if [[ ! -d $2 ]]; then
-        echo -e "Error: path '$2' doesn't exist\n"
-        help
-        exit 1
-      fi
-      DEST=$2
-      shift
-      shift
-      ;;
-    -h | --help)
-      help
-      exit 0
-      ;;
-    *)
-      # unknown option
-      help
-      exit 1
-      ;;
-  esac
+
+  exit 0
+
 done
 
 if $_build; then
