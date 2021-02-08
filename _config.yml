@@ -15,14 +15,17 @@ timezone: Europe/Moscow
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Sergey Frolov                          # the main title
+title: Sergey Frolov   # the main title
 
 tagline: Personal and work interests in one place   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  The piggy bank of useful (in my opinion) materials, ideas and hobbies, 
+  for those who are associated with digitalization, oil and gas, 
+  and also for those who just like to read something interesting.
+  Копилка полезных (на мой взгляд) материалов, идей и хобби,
+  для тех, кто связан с цифровизацией, нефтью и газом,
+  а также для тех, кто просто любит почитать что-нибудь интересное.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://www.s-f.one'
@@ -30,27 +33,27 @@ url: 'https://www.s-f.one'
 author: Sergey Frolov                  # change to your full name
 
 github:
-  username: github_username             # change to your github username
+  username: sergey-frolov-pets             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: sergey_frolov            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: Sergey Frolov                  # it will shows as the copyright owner in Footer
+  email: blog@s-f.one             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/sergey_frolov      # change to your twitter homepage
+    - https://github.com/sergey-frolov-pets       # change to your github homepage
     # Uncomment below to add more social links
+    - https://www.linkedin.com/in/sergey-frolov-ru
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: <meta name="google-site-verification" content="FDpYtUcYm7SaaIfe6fQhZDSj-m-dKqO_7gybjaz_sfU" /> # change to your verification string
 # --------------------------
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'sergey-frolov-ru'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
@@ -88,7 +91,7 @@ toc: true
 
 disqus:
   comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: 's-f-blog'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 paginate: 10
 
